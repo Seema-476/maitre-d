@@ -173,7 +173,7 @@
 }
 
 .max-w-443 {
-    max-width: 443px;
+    max-width: 343px;
 }
 
 .pt19 {
@@ -186,7 +186,10 @@
 
 /* ================== section-3 ========================== */
 .cardsection-upperelip {
-    height: 210px;
+    /* height: 210px; */
+    top: 0;
+    left: 0;
+    /* z-index: -1; */
 }
 
 .cardsection-downelip {
@@ -497,7 +500,7 @@
 }
 
 .max-w-618 {
-    max-width: 618px;
+    max-width: 418px;
 }
 
 .vector {
@@ -622,6 +625,12 @@
 }
 
 @media(min-width:576px) {
+    .max-w-618 {
+            max-width: 518px;
+        }
+    .max-w-443 {
+            max-width: 443px;
+        }
     .lh36_96 {
         line-height: 36.96px;
     }
@@ -703,6 +712,9 @@
 }
 
 @media(min-width:768px) {
+    .max-w-618 {
+            max-width: 618px;
+        }
     .footerbtns {
         padding-top: 34px;
         padding-bottom: 33px;
@@ -715,17 +727,12 @@
         background-size: cover;
     }
 
-    /* 
-    .message {
-        padding-bottom: 52px;
-    } */
-
     .formsubmitbtn {
         margin-top: 50px;
     }
 
     .padding-tb {
-        /* padding-top: 48px; */
+        padding-top: 60px;
         padding-bottom: 60px;
     }
 
@@ -775,7 +782,7 @@
     }
 
     .padding-tb {
-        /* padding-top: 10px; */
+        padding-top: 217px;
         padding-bottom: 95px;
     }
 
