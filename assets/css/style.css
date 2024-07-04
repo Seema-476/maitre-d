@@ -191,6 +191,10 @@
 
 .cardsection-downelip {
     height: 210px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
 }
 
 .cardbgcolor {
@@ -701,6 +705,10 @@
     .formsubmitbtn {
         margin-top: 50px;
     }
+        .padding-tb {
+            /* padding-top: 48px; */
+            padding-bottom: 60px;
+        }
 
     .formpy {
         padding-top: 60px;
@@ -747,8 +755,8 @@
             padding-top: 82px;
         }
     .padding-tb{
-        padding-top: 10px;
-        padding-bottom: 10px;
+        /* padding-top: 10px; */
+        padding-bottom: 95px;
     }
 
     .formsubmitbtn {
@@ -774,6 +782,7 @@
     }
 
     .sliderpy {
+        padding-top: 95px;
         padding-bottom: 95px;
     }
 
