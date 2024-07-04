@@ -186,10 +186,9 @@
 
 /* ================== section-3 ========================== */
 .cardsection-upperelip {
-    /* height: 210px; */
     top: 0;
     left: 0;
-    /* z-index: -1; */
+    right: 0;
 }
 
 .cardsection-downelip {
@@ -372,7 +371,7 @@
 /* ================================ pricing ================================= */
 .pricingpy {
     padding-top: 48px;
-    padding-bottom: 48px;
+    padding-bottom: 28px;
 }
 
 .togglebg {
@@ -475,7 +474,6 @@
 .message {
     border: none;
     border-bottom: 1px solid var(--fc-black);
-    /* padding-bottom: 25px; */
     padding-top: 29px;
     outline: none;
     resize: none;
@@ -626,6 +624,12 @@
 }
 
 @media(min-width:576px) {
+    .max-height139 {
+            max-height: 139px;
+        }
+    .pricingpy{
+        padding-bottom: 48px;
+    }
     .max-w-618 {
             max-width: 518px;
         }
