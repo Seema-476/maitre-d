@@ -361,6 +361,9 @@
 .slick-dots {
     bottom: -20 !important;
 }
+.slick-dotted.slick-slider {
+    margin-bottom: 0;
+}
 
 /* ================================ pricing ================================= */
 .pricingpy {
@@ -711,12 +714,12 @@
         }
 
     .formpy {
-        padding-top: 60px;
+        padding-top: 50px;
     }
 
     .pricingpy {
         padding-top: 60px;
-        padding-bottom: 60px;
+        padding-bottom: 50px;
     }
 
     .sliderpy {
@@ -778,7 +781,7 @@
 
     .pricingpy {
         padding-top: 95px;
-        padding-bottom: 100px;
+        padding-bottom: 95px;
     }
 
     .sliderpy {
@@ -841,7 +844,7 @@
 
 @media(min-width:1200px) {
     .formpy {
-        padding-top: 184px;
+        padding-top: 147px;
     }
 
     .simple {
@@ -849,7 +852,7 @@
     }
 
     .pricingpy {
-        padding-bottom: 184px;
+        padding-bottom: 147px;
     }
 
     .slick-dots {
