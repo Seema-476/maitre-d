@@ -478,6 +478,7 @@
     /* padding-bottom: 25px; */
     padding-top: 29px;
     outline: none;
+    resize: none;
 }
 
 .formsubmitbtn {
@@ -628,9 +629,7 @@
     .max-w-618 {
             max-width: 518px;
         }
-    .max-w-443 {
-            max-width: 443px;
-        }
+
     .lh36_96 {
         line-height: 36.96px;
     }
@@ -712,19 +711,15 @@
 }
 
 @media(min-width:768px) {
+        .max-w-443 {
+                max-width: 443px;
+            }
     .max-w-618 {
             max-width: 618px;
         }
     .footerbtns {
         padding-top: 34px;
         padding-bottom: 33px;
-    }
-
-    .footerbg {
-        background-image: url(../images/footerbg.png);
-        /* background-position: center; */
-        background-repeat: no-repeat;
-        background-size: cover;
     }
 
     .formsubmitbtn {
@@ -777,6 +772,12 @@
 }
 
 @media(min-width:992px) {
+        .footerbg {
+                background-image: url(../images/footerbg.png);
+                /* background-position: center; */
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
     .footerlogopy {
         padding-top: 82px;
     }
