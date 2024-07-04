@@ -5,7 +5,7 @@
     --fs-mmd: 14px;
     --fs-lg: 14px;
     --fs-llg: 23.83px;
-    --fs-2lg: 24px;
+    --fs-2lg: 20px;
     --fs-xl: 30px;
     --fs-xxl: 38px;
     --fs-2xl: 24px;
@@ -83,6 +83,7 @@
 @media(min-width:576px) {
 :root{
         --fs-lg: 20px;
+        --fs-2lg: 24px;
     --fs-xl: 40px;
     --fs-xxl: 48px;
         --fs-2xl: 38px;

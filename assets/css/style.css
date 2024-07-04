@@ -65,7 +65,7 @@
 }
 
 .lh36_96 {
-    line-height: 36.96px;
+    line-height: 30.96px;
 }
 
 .lh46_92 {
@@ -470,7 +470,7 @@
 .message {
     border: none;
     border-bottom: 1px solid var(--fc-black);
-    padding-bottom: 25px;
+    /* padding-bottom: 25px; */
     padding-top: 29px;
     outline: none;
 }
@@ -549,6 +549,10 @@
     transform: translateY(-5px);
     box-shadow: 4px 0 50px 2px var(--nav-hover);
 }
+.footerelip{
+    bottom: 0;
+    left: 80px;
+}
 
 
 @media(max-width:991.98px) {
@@ -613,6 +617,9 @@
 }
 
 @media(min-width:576px) {
+    .lh36_96 {
+    line-height: 36.96px;
+}
     .btnsubmit {
             background: linear-gradient(96.64deg, #FD9B2B 13.58%, #F14F09 86.99%);
             padding: 12px 38px 13px 37px;
@@ -700,10 +707,10 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
-
+/* 
     .message {
         padding-bottom: 52px;
-    }
+    } */
 
     .formsubmitbtn {
         margin-top: 50px;
